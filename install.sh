@@ -1,33 +1,29 @@
 clear
 echo "
-███╗   ███╗ █████╗ ███╗   ██╗██╗███████╗███████╗ ██████╗
-████╗ ████║██╔══██╗████╗  ██║██║██╔════╝██╔════╝██╔═══██╗
-██╔████╔██║███████║██╔██╗ ██║██║███████╗███████╗██║   ██║
-██║╚██╔╝██║██╔══██║██║╚██╗██║██║╚════██║╚════██║██║   ██║
-██║ ╚═╝ ██║██║  ██║██║ ╚████║██║███████║███████║╚██████╔╝
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚══════╝ ╚═════╝
-▀▀█▀▀ █▀▀█ █▀▀█ █   █▀▀ ~ Tools Instaler By Ⓜ Ⓐ Ⓝ Ⓘ Ⓢ Ⓢ Ⓞ  ☪ ~
-  █   █  █ █  █ █   ▀▀█
-  ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀
-
+              .______    __    __   __      .______     ______   
+              |   _  \  |  |  |  | |  |     |   _  \   /  __  \  
+              |  |_)  | |  |  |  | |  |     |  |_)  | |  |  |  | 
+              |   ___/  |  |  |  | |  |     |   ___/  |  |  |  | 
+              |  |      |  `--'  | |  `----.|  |      |  `--'  | 
+              | _|       \______/  |_______|| _|       \______/  
 ";
 
 if [ "$PREFIX" = "/data/data/com.termux/files/usr" ]; then
-    INSTALL_DIR="$PREFIX/usr/share/doc/fsociety"
+    INSTALL_DIR="$PREFIX/usr/share/doc/pulpo"
     BIN_DIR="$PREFIX/bin/"
     BASH_PATH="$PREFIX/bin/bash"
     TERMUX=true
     pkg install -y git python2
 else
     if [[ "$(uname)" == 'Darwin' ]]; then
-       INSTALL_DIR="/usr/local/fsociety"
+       INSTALL_DIR="/usr/local/pulpo"
        BIN_DIR="/usr/local/bin/"
        BASH_PATH="/bin/bash"
        TERMUX=false
        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
        brew install python
     else
-       INSTALL_DIR="/usr/share/doc/fsociety"
+       INSTALL_DIR="/usr/share/doc/pulpo"
        BIN_DIR="/usr/bin/"
        BASH_PATH="/bin/bash"
        TERMUX=false
@@ -37,7 +33,7 @@ fi
 
 echo "[✔] Checking directories...";
 if [ -d "$INSTALL_DIR" ]; then
-    echo "[◉] A directory fsociety was found! Do you want to replace it? [Y/n]:" ;
+    echo "[◉] A directory pulpo was found! Do you want to replace it? [Y/n]:" ;
     read mama
     if [ "$mama" = "y" ]; then
         if [ "$TERMUX" = true ]; then
@@ -52,27 +48,27 @@ if [ -d "$INSTALL_DIR" ]; then
     fi
 fi
 echo "[✔] Cleaning up old directories...";
-if [ -d "$ETC_DIR/Manisso" ]; then
+if [ -d "$ETC_DIR/kutaygs" ]; then
     echo "$DIR_FOUND_TEXT"
     if [ "$TERMUX" = true ]; then
-        rm -rf "$ETC_DIR/Manisso"
+        rm -rf "$ETC_DIR/kutaygs"
     else
-        sudo rm -rf "$ETC_DIR/Manisso"
+        sudo rm -rf "$ETC_DIR/kutaygs"
     fi
 fi
 
 echo "[✔] Installing ...";
 echo "";
-git clone https://github.com/Manisso/fsociety "$INSTALL_DIR";
+git clone https://github.com/kutaygs/pulpo "$INSTALL_DIR";
 echo "#!$BASH_PATH
-python $INSTALL_DIR/fsociety.py" '${1+"$@"}' > fsociety;
-chmod +x fsociety;
+python $INSTALL_DIR/pulpo.py" '${1+"$@"}' > pulpo;
+chmod +x pulpo;
 if [ "$TERMUX" = true ]; then
     cp fsociety "$BIN_DIR"
 else
-    sudo cp fsociety "$BIN_DIR"
+    sudo cp pulpo "$BIN_DIR"
 fi
-rm fsociety;
+rm pulpo;
 
 
 if [ -d "$INSTALL_DIR" ] ;
@@ -81,7 +77,7 @@ then
     echo "[✔] Tool installed successfully! [✔]";
     echo "";
     echo "[✔]====================================================================[✔]";
-    echo "[✔]      All is done!! You can execute tool by typing fsociety !       [✔]";
+    echo "[✔]      All is done!! You can execute tool by typing pulpo !       [✔]";
     echo "[✔]====================================================================[✔]";
     echo "";
 else
