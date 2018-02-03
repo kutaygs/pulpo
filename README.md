@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/kutaygs/pulpo/blob/master/LICENSE) ![Linux]
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/kutaygs/pulpo/blob/master/LICENSE) 
 
 # pulpo
 Combination of wireless test programs.
