@@ -101,7 +101,7 @@ class fsociety:
         clearScr()
         if choice == "1":
             wirelessTestingMenu()
-        elif choice == "99":
+        elif choice == "9":
             sys.exit()
         else:
             print("Incorrect entry // Hatali Giris")
