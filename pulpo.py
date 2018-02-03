@@ -125,7 +125,7 @@ class wirelessTestingMenu:
         print("   {1}--reaver // reaver")
         print("   {2}--pixiewps // pixiewps")
         print("   {3}--Bluetooth Honeypot GUI Framework // Bluetooth Honeypot GUI Framework\n")
-        print("   {99}-Back To The Main Menu // Ana Menuye Git\n")
+        print("   {9}-Back To The Main Menu // Ana Menuye Git\n")
         choice4 = raw_input("fsociety~# ")
         clearScr()
         if choice4 == "1":
@@ -134,7 +134,7 @@ class wirelessTestingMenu:
             pixiewps()
         elif choice4 == "3":
             bluepot()
-        elif choice4 == "99":
+        elif choice4 == "9":
             fsociety()
         else:
             self.__init__()
