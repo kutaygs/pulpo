@@ -92,12 +92,11 @@ class pulpo:
    }-----{+} Program python dilinde ingilizce ve Turkce yapilmistir. {+}-----{
     }-----{+} This program made with python in English and Turkish. {+}-----{
 
-
     """
-               print (pulpologo + color.RED + """
-       {1}--Wireless Testing // Wi-Fi testleri
-       {9}-Exit\n
-     """)
+      print (pulpologo + color.RED + """
+             {1}--Wireless Testing // Wi-Fi testleri
+             {9}-Exit\n
+             """)
         choice = raw_input("pulpo~# ")
         clearScr()
         if choice == "1":
