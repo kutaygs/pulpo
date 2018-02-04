@@ -52,7 +52,7 @@ Linux
 
 Windows
 
-![alt text](https://ibb.co/g1XTdx)
+![alt text](https://image.ibb.co/iT9kQc/pulpo.png)
 
 
 # License
