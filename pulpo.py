@@ -122,7 +122,7 @@ class wirelessTestingMenu:
     def __init__(self):
         clearScr()
         print("   {1}--wifite")
-        print("   {2}--program")
+        print("   {2}--fern")
         print("   {3}--program")
         print("   {9}-Back To The Main Menu // Ana Menuye Git\n")
         choice4 = raw_input("pulpo~# ")
@@ -130,7 +130,7 @@ class wirelessTestingMenu:
         if choice4 == "1":
             wifite()
         elif choice4 == "2":
-            wifite()
+            fern()
         elif choice4 == "3":
             wifite()
         elif choice4 == "9":
@@ -144,6 +144,10 @@ class wirelessTestingMenu:
         self.__init__()
 
 
+        def fern():
+            if yesOrNo():
+                os.system("sudo python /usr/share/Fern-Wifi-Cracker/execute.py")
+        
 
 def wifite():
     if yesOrNo():
