@@ -92,8 +92,8 @@ class pulpo:
    }-----{+} Program python dilinde ingilizce ve Turkce yapilmistir. {+}-----{
     }-----{+} This program made with python in English and Turkish. {+}-----{
 
-    """
-      print ( """
+   
+     
              {1}--Wireless Testing // Wi-Fi testleri
              {9}-Exit\n
              """)
