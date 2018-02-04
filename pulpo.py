@@ -65,12 +65,12 @@ shells = ['wso.php', 'shell.php', 'an.php', 'hacker.php', 'lol.php', 'up.php', '
 upload = []
 yes = ['yes', 'y', 'ye', 'Y']
 
-fsocietylogo = color.END + """
+pulpologo = color.END + """
               .______    __    __   __      .______     ______   
               |   _  \  |  |  |  | |  |     |   _  \   /  __  \  
               |  |_)  | |  |  |  | |  |     |  |_)  | |  |  |  | 
               |   ___/  |  |  |  | |  |     |   ___/  |  |  |  | 
-              |  |      |  `--'  | |  `----.|  |      |  `--'  | 
+              |  |      |  `--'  | |  `----.|  |      |  `--'                   | 
               | _|       \______/  |_______|| _|       \______/  
                                                     
 """
@@ -87,7 +87,7 @@ class fsociety:
     def __init__(self):
         clearScr()
         print (fsocietylogo + color.RED + """
-                }-----{+} With LOVE by kutaygs =) {+}-----{
+                     }-----{+} CODED by kutaygs =) {+}-----{
             }--------{+} kutayyavuz03@hotmail.com {+}--------{
    }-----{+} Program python dilinde ingilizce ve Turkce yapilmistir. {+}-----{
     }-----{+} This program made with python in English and Turkish. {+}-----{
@@ -97,7 +97,7 @@ class fsociety:
        {1}--Wireless Testing // Wi-Fi testleri
        {9}-Exit\n
      """)
-        choice = raw_input("fsociety~# ")
+        choice = raw_input("pulpo~# ")
         clearScr()
         if choice == "1":
             wirelessTestingMenu()
@@ -121,21 +121,20 @@ Wireless Testing Tools Classes
 class wirelessTestingMenu:
     def __init__(self):
         clearScr()
-        print(fsocietylogo)
-        print("   {1}--reaver // reaver")
-        print("   {2}--pixiewps // pixiewps")
-        print("   {3}--Bluetooth Honeypot GUI Framework // Bluetooth Honeypot GUI Framework\n")
+        print("   {1}--pixiewps")
+        print("   {2}--program")
+        print("   {3}--program")
         print("   {9}-Back To The Main Menu // Ana Menuye Git\n")
-        choice4 = raw_input("fsociety~# ")
+        choice4 = raw_input("pulpo~# ")
         clearScr()
         if choice4 == "1":
-            reaver()
+            pixiewps()
         elif choice4 == "2":
             pixiewps()
         elif choice4 == "3":
-            bluepot()
+            pixiewps()
         elif choice4 == "9":
-            fsociety()
+            pixiewps()
         else:
             self.__init__()
         self.completed()
@@ -145,74 +144,12 @@ class wirelessTestingMenu:
         self.__init__()
 
 
-def reaver():
-    if yesOrNo():
-        os.system(
-            "apt-get -y install build-essential libpcap-dev sqlite3 libsqlite3-dev aircrack-ng pixiewps")
-        os.system("git clone --depth=1 https://github.com/t6x/reaver-wps-fork-t6x.git")
-        os.system("cd reaver-wps-fork-t6x/src/ & ./configure")
-        os.system("cd reaver-wps-fork-t6x/src/ & make")
-
 
 def pixiewps():
     if yesOrNo():
-        os.system("git clone --depth=1 https://github.com/wiire/pixiewps.git")
+        os.system("git clone  https://github.com/wiire/pixiewps.git")
         os.system("cd pixiewps & make ")
         os.system("sudo make install")
-
-
-def bluepot():
-    print("You need to have at least 1 bluetooh receiver // En az 1 bluetooth aliciniz olmasi gerekmekte")
-    if yesOrNo():
-        os.system("wget https://github.com/andrewmichaelsmith/bluepot/raw/master/bin/bluepot-0.1.tar.gz && tar xfz bluepot-0.1.tar.gz && sudo java -jar bluepot/BluePot-0.1.jar")
-
-
-
-
-
-
-
-def reaver():
-    print """
-      Reaver has been designed to be a robust and practical attack against Wi-Fi Protected Setup
-      WPS registrar PINs in order to recover WPA/WPA2 passphrases. It has been tested against a
-      wide variety of access points and WPS implementations
-      1 to accept / 0 to decline
-        """
-    if yesOrNo():
-        os.system(
-            "apt-get -y install build-essential libpcap-dev sqlite3 libsqlite3-dev aircrack-ng pixiewps")
-        os.system("git clone --depth=1 https://github.com/t6x/reaver-wps-fork-t6x.git")
-        os.system("cd reaver-wps-fork-t6x/src/ & ./configure")
-os.system("cd reaver-wps-fork-t6x/src/ & make")
-
-
-
-
-
-
-
-
-def pixiewps():
-    print"""Pixiewps is a tool written in C used to bruteforce offline the WPS pin exploiting the low or non-existing entropy of some Access Points, the so-called "pixie dust attack" discovered by Dominique Bongard in summer 2014. It is meant for educational purposes only
-    """
-    if yesOrNo():
-        os.system("git clone --depth=1 https://github.com/wiire/pixiewps.git")
-        os.system("cd pixiewps & make ")
-os.system("sudo make install")
-
-
-
-
-
-def bluepot():
-    print("you need to have at least 1 bluetooh receiver (if you have many it will work wiht those, too). You must install / libbluetooth-dev on Ubuntu / bluez-libs-devel on Fedora/bluez-devel on openSUSE ")
-    if yesOrNo():
-        os.system("wget https://github.com/andrewmichaelsmith/bluepot/raw/master/bin/bluepot-0.1.tar.gz && tar xfz bluepot-0.1.tar.gz && sudo java -jar bluepot/BluePot-0.1.jar")
-
-
-
-
 
 
 
