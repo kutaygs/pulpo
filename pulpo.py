@@ -134,7 +134,7 @@ class wirelessTestingMenu:
         elif choice4 == "3":
             pixiewps()
         elif choice4 == "9":
-            pixiewps()
+            pulpo()
         else:
             self.__init__()
         self.completed()
