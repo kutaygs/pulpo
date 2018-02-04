@@ -83,17 +83,18 @@ Starts Menu Classes
 '''
 
 
-class fsociety:
+class pulpo:
     def __init__(self):
         clearScr()
-        print (fsocietylogo + color.RED + """
+        print (pulpologo + color.RED + """
                      }-----{+} CODED by kutaygs =) {+}-----{
             }--------{+} kutayyavuz03@hotmail.com {+}--------{
    }-----{+} Program python dilinde ingilizce ve Turkce yapilmistir. {+}-----{
     }-----{+} This program made with python in English and Turkish. {+}-----{
 
 
-    """ + color.END + """
+    """
+               print (pulpologo + color.RED + """
        {1}--Wireless Testing // Wi-Fi testleri
        {9}-Exit\n
      """)
@@ -155,7 +156,7 @@ def pixiewps():
 
 if __name__ == "__main__":
     try:
-        fsociety()
+        pulpo()
     except KeyboardInterrupt:
         print(" Finishing up...\r"),
         time.sleep(0.25)
