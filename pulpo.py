@@ -121,18 +121,18 @@ Wireless Testing Tools Classes
 class wirelessTestingMenu:
     def __init__(self):
         clearScr()
-        print("   {1}--pixiewps")
+        print("   {1}--wifite")
         print("   {2}--program")
         print("   {3}--program")
         print("   {9}-Back To The Main Menu // Ana Menuye Git\n")
         choice4 = raw_input("pulpo~# ")
         clearScr()
         if choice4 == "1":
-            pixiewps()
+            wifite()
         elif choice4 == "2":
-            pixiewps()
+            wifite()
         elif choice4 == "3":
-            pixiewps()
+            wifite()
         elif choice4 == "9":
             pulpo()
         else:
@@ -145,11 +145,12 @@ class wirelessTestingMenu:
 
 
 
-def pixiewps():
+def wifite():
     if yesOrNo():
-        os.system("git clone  https://github.com/wiire/pixiewps.git")
-        os.system("cd pixiewps & make ")
-        os.system("sudo make install")
+        os.system("wget https://raw.github.com/derv82/wifite/master/wifite.py")
+        os.system("chmod +x wifite.py")
+        os.system("./wifite.py")
+        os.system("")
 
 
 
