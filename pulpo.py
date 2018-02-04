@@ -93,7 +93,7 @@ class pulpo:
     }-----{+} This program made with python in English and Turkish. {+}-----{
 
     """
-      print (pulpologo + color.RED + """
+      print ( """
              {1}--Wireless Testing // Wi-Fi testleri
              {9}-Exit\n
              """)
