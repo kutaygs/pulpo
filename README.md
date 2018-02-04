@@ -27,6 +27,7 @@ Combination of wireless test programs.
 ```bash
 git clone https://github.com/kutaygs/pulpo.git
 cd pulpo
+chmod +x install.sh
 ./install.sh
 ```
 
@@ -51,7 +52,7 @@ Linux
 
 Windows
 
-https://ibb.co/g1XTdx
+[![asciicast](https://ibb.co/g1XTdx)]
 
 # License
 
