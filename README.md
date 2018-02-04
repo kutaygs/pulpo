@@ -13,9 +13,9 @@ Combination of wireless test programs.
 
 ### Wireless Testing:
 
-- Reaver
 - Pixiewps
-- Bluetooth Honeypot
+- not yet
+- not yet
 
 
 
