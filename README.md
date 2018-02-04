@@ -52,7 +52,8 @@ Linux
 
 Windows
 
-[![asciicast](https://ibb.co/g1XTdx)]
+![alt text](https://ibb.co/g1XTdx)
+
 
 # License
 
