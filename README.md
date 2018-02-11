@@ -47,7 +47,7 @@ Then double-click (pulpo.py)
 # Screenshots
 
 Linux
-[![asciicast](https://asciinema.org/a/25Au25FUUNFoI023mPlPdG2Y8.png)](https://asciinema.org/a/25Au25FUUNFoI023mPlPdG2Y8)
+[![asciicast](https://asciinema.org/a/k05kRzIsKFhyrDBMPFJWSdNCp.png)](https://asciinema.org/a/k05kRzIsKFhyrDBMPFJWSdNCp)
 
 
 Windows
