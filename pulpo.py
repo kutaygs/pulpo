@@ -65,7 +65,7 @@ shells = ['wso.php', 'shell.php', 'an.php', 'hacker.php', 'lol.php', 'up.php', '
 upload = []
 yes = ['yes', 'y', 'ye', 'Y']
 
-pulpologo = color.END + """
+pulpologo = color.OKBLUE + """
               .______    __    __   __      .______     ______   
               |   _  \  |  |  |  | |  |     |   _  \   /  __  \  
               |  |_)  | |  |  |  | |  |     |  |_)  | |  |  |  | 
