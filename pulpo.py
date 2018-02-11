@@ -65,14 +65,14 @@ shells = ['wso.php', 'shell.php', 'an.php', 'hacker.php', 'lol.php', 'up.php', '
 upload = []
 yes = ['yes', 'y', 'ye', 'Y']
 
-pulpologo = color.OKGREEN + """
-              .______    __    __   __      .______     ______   
-              |   _  \  |  |  |  | |  |     |   _  \   /  __  \  
-              |  |_)  | |  |  |  | |  |     |  |_)  | |  |  |  | 
-              |   ___/  |  |  |  | |  |     |   ___/  |  |  |  | 
-              |  |      |  `--'  | |  `----.|  |      |  `--'  | 
-              | _|       \______/  |_______|| _|       \______/  
-                                                    
+pulpologo = color.END + """
+              .______    __    __   __      .______     ______
+              |   _  \  |  |  |  | |  |     |   _  \   /  __  \
+              |  |_)  | |  |  |  | |  |     |  |_)  | |  |  |  |
+              |   ___/  |  |  |  | |  |     |   ___/  |  |  |  |
+              |  |      |  `--'  | |  `----.|  |      |  `--'  |
+              | _|       \______/  |_______|| _|       \______/
+
 """
 alreadyInstalled = "Already Installed"
 continuePrompt = "\nClick [Return] to continue"
@@ -92,8 +92,8 @@ class pulpo:
    }-----{+} Program python dilinde ingilizce ve Turkce yapilmistir. {+}-----{
     }-----{+} This program made with python in English and Turkish. {+}-----{
 
-   
-     
+
+
              {1}--Wireless Testing // Wi-Fi testleri
              {9}-Exit\n
              """)
@@ -112,7 +112,7 @@ class pulpo:
         print("Completed, click return to go back // Tamamlandi, geri donmek icin tiklayiniz")
         self.__init__()
 
-   
+
 '''
 Wireless Testing Tools Classes
 '''
@@ -121,6 +121,7 @@ Wireless Testing Tools Classes
 class wirelessTestingMenu:
     def __init__(self):
         clearScr()
+        print (pulpologo)
         print("   {1}--wifite")
         print("   {2}--fern")
         print("   {3}--program")
@@ -147,7 +148,7 @@ class wirelessTestingMenu:
         def fern():
             if yesOrNo():
                 os.system("sudo python /usr/share/Fern-Wifi-Cracker/execute.py")
-        
+
 
 def wifite():
     if yesOrNo():
