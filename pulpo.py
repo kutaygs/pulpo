@@ -86,17 +86,17 @@ Starts Menu Classes
 class pulpo:
     def __init__(self):
         clearScr()
-        print (pulpologo + color.RED + """
+        print (pulpologo + color.RED + '''
                      }-----{+} CODED by kutaygs =) {+}-----{
             }--------{+} kutayyavuz03@hotmail.com {+}--------{
    }-----{+} Program python dilinde ingilizce ve Turkce yapilmistir. {+}-----{
     }-----{+} This program made with python in English and Turkish. {+}-----{
 
 
-
+  ''' + color.END + '''
              {1}--Wireless Testing // Wi-Fi testleri
              {9}-Exit\n
-             """)
+             ''')
         choice = raw_input("pulpo~# ")
         clearScr()
         if choice == "1":
