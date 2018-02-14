@@ -79,7 +79,7 @@ class pulpo:
     def __init__(self):
         clearScr()
         print (pulpologo + color.RED + '''
-                     }-----{+} CODED by kutaygs =) {+}-----{
+                     }-----{+} Made with LOVE by kutaygs =) {+}-----{
             }--------{+} kutayyavuz03@hotmail.com {+}--------{
    }-----{+} Program python dilinde ingilizce ve Turkce yapilmistir. {+}-----{
     }-----{+} This program made with python in English and Turkish. {+}-----{
