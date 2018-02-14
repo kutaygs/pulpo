@@ -117,6 +117,7 @@ class wirelessTestingMenu:
         print("   {1}--wifite")
         print("   {2}--fern")
         print("   {3}--kismet")
+        print("   {4}--LazyScript")
         print("   {9}-Back To The Main Menu // Ana Menuye Git\n")
         choice4 = raw_input("pulpo~# ")
         clearScr()
@@ -126,6 +127,8 @@ class wirelessTestingMenu:
             fern()
         elif choice4 == "3":
             kismet()
+        elif choice4 == "4":
+            Lazy()
         elif choice4 == "9":
             pulpo()
         else:
@@ -140,6 +143,17 @@ class wirelessTestingMenu:
         def fern():
             if yesOrNo():
                 os.system("sudo python /usr/share/Fern-Wifi-Cracker/execute.py")
+
+def Lazy():
+    if yesOrNo():
+        os.system("cd") 
+        os.system("git clone https://github.com/arismelachroinos/lscript.git")
+        os.system("cd lscript")
+        os.system("chmod +x install.sh")
+        os.system("./install.sh")
+        os.system("")  
+        os.system("l")
+        os.system("")
 
 def kismet():
     if yesOrNo():
