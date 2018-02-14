@@ -13,9 +13,10 @@ Combination of wireless test programs.
 
 ### Wireless Testing:
 
-- Pixiewps
-- not yet
-- not yet
+- wifite
+- fern
+- kismet
+- LazyScript
 
 
 
@@ -56,10 +57,10 @@ Windows
 
 
 
-# ToDo
-*Add more programs about wireless hacking.
-*Repair LazyScript ("Kendi üzerine bir daha kuruyor ve çalışmıyor.")
-*Repair kismet ("Bazen hata veriyor.")
+### ToDo
+- Add more programs about wireless hacking.
+- Repair LazyScript ("Kendi üzerine bir daha kuruyor ve çalışmıyor.")
+- Repair kismet ("Bazen hata veriyor.")
 
 
 # License
