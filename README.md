@@ -55,6 +55,13 @@ Windows
 ![alt text](https://image.ibb.co/iT9kQc/pulpo.png)
 
 
+
+# ToDo
+*Add more programs about wireless hacking.
+*Repair LazyScript ("Kendi üzerine bir daha kuruyor ve çalışmıyor.")
+*Repair kismet ("Bazen hata veriyor.")
+
+
 # License
 
 [MIT Licence](https://github.com/kutaygs/pulpo/blob/master/LICENSE)
