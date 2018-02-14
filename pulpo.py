@@ -33,17 +33,9 @@ Common Functions
 
 
 class color:
-    HEADER = '\033[95m'
-    IMPORTANT = '\33[35m'
-    NOTICE = '\033[33m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
     RED = '\033[91m'
     END = '\033[0m'
-    UNDERLINE = '\033[4m'
-    LOGGING = '\33[34m'
-
+ 
 
 def clearScr():
     os.system('clear')
@@ -124,7 +116,7 @@ class wirelessTestingMenu:
         print (pulpologo)
         print("   {1}--wifite")
         print("   {2}--fern")
-        print("   {3}--program")
+        print("   {3}--kismet")
         print("   {9}-Back To The Main Menu // Ana Menuye Git\n")
         choice4 = raw_input("pulpo~# ")
         clearScr()
@@ -133,7 +125,7 @@ class wirelessTestingMenu:
         elif choice4 == "2":
             fern()
         elif choice4 == "3":
-            wifite()
+            kismet()
         elif choice4 == "9":
             pulpo()
         else:
@@ -148,6 +140,11 @@ class wirelessTestingMenu:
         def fern():
             if yesOrNo():
                 os.system("sudo python /usr/share/Fern-Wifi-Cracker/execute.py")
+
+def kismet():
+    if yesOrNo():
+        os.system("kismet")
+        os.system("")
 
 
 def wifite():
