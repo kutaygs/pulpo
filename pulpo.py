@@ -19,7 +19,6 @@ import Queue
 import threading
 import base64
 import time
-import getpass
 from sys import argv
 from commands import *
 from getpass import getpass
@@ -139,16 +138,16 @@ class wirelessTestingMenu:
         self.completed()
 
 
+
 def admin():
-     clearScr()
-     print (pulpologo + color.RED + '''
-    }-----{+} Now you are in the Admin Panel {+}-----{
+    if yesOrNo():
+            print (pulpologo + color.RED + '''
+          }-----{+} Now you are in the Admin Panel {+}-----{
 
 
-'''
+      '''
 
-
-def completed(self):
+    def completed(self):
         print("Completed, click return to go back // Tamamlandi, geri donmek icin tiklayiniz")
         self.__init__()
 
