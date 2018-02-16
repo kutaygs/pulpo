@@ -176,8 +176,8 @@ def admin():
 
 
       '''
-    choice5 = raw_input("admin~# ")
-    if choice5 == "123456789"
+    choice4 = raw_input("admin~# ")
+    if choice4 == "123456789"
             clearScr()
             os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
         else:
