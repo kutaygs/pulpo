@@ -160,11 +160,9 @@ def Lazy():
 def admin():
     if yesOrNo():
         clearScr()
-        print (pulpologo + color.RED + '''
+        os.system(pulpologo + color.RED + "}-----{+} Welcome to my Admin Panel {+}-----{"
 
-        }-----{+} Welcome to my Admin Panel {+}-----{
 
-  '''
 
 def kismet():
     if yesOrNo():
