@@ -169,15 +169,17 @@ def wifite():
         os.system("./wifite.py")
         os.system("")
 
-            
 def admin():
     if yesOrNo():
-        os.system("hello this is the admin panel")
-        os.system("please enter your password")
+            print (pulpologo + color.RED + '''
+          }-----{+} Now you are trying to be in the Admin Panel {+}-----{
+            
+
+      '''
         choice5 = raw_input("admin~# ")
-        if choice5 == "123456789":
+        if choice5 == "123456789"
             clearScr()
-            os.system("now you are inside")
+            os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
         else:
             self.__init__()        
 
