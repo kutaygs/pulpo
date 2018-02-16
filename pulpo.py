@@ -19,6 +19,7 @@ import Queue
 import threading
 import base64
 import time
+import getpass
 from sys import argv
 from commands import *
 from getpass import getpass
@@ -145,16 +146,12 @@ def admin():
 
 
  '''
-
-loop = 'true'
-while (loop == 'true'):
-
-            password = getpass.getpass("Please enter your password: ")
-            if (password == "123456789"):
+        password = getpass.getpass("Please enter your password: ")
+        if (password == "123456789"):
                 clearScr()
                 print(" }-----{+} Now everyone knows my secret place =( {+}-----{")
-                
-            else:
+
+        else:
                 self.__init__()
 
     def completed(self):
