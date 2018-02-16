@@ -142,34 +142,11 @@ class wirelessTestingMenu:
 def admin():
      clearScr()
      print (pulpologo + color.RED + '''
-}-----{+} Now you are trying to be in the Admin Panel {+}-----{
+    }-----{+} Now you are in the Admin Panel {+}-----{
 
 
 '''
 
-    CorrectUsername = "kutaygs"
-    CorrectPassword = "sgyatuk" 
-
-    loop = 'true'
-    while (loop == 'true'):
-
-        username = raw_input("Please enter your username: ")
-
-        if (username == CorrectUsername):
-            loop1 = 'true'
-            while (loop1 == 'true'):
-                password = getpass.getpass("Please enter your password: ")
-                if (password == CorrectPassword):
-                    print "Logged in successfully as " + username
-                    print(" }-----{+} Now everyone knows my secret place =( {+}-----{")
-                    loop = 'false'
-                    loop1 = 'false'
-                else:
-                    print "Password incorrect!"
-
-    else:
-        print "Username incorrect!"
-        self.__init__()
 
 def completed(self):
         print("Completed, click return to go back // Tamamlandi, geri donmek icin tiklayiniz")
