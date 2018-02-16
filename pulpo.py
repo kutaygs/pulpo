@@ -132,20 +132,10 @@ class wirelessTestingMenu:
         elif choice4 == "9":
             pulpo()
         elif choice4 == "99":
-            admin()
+                admin()
         else:
             self.__init__()
         self.completed()
-
-
-
-def admin():
-    if yesOrNo():
-            print (pulpologo + color.RED + '''
-          }-----{+} Now you are in the Admin Panel {+}-----{
-
-
-      '''
 
     def completed(self):
         print("Completed, click return to go back // Tamamlandi, geri donmek icin tiklayiniz")
@@ -178,6 +168,16 @@ def wifite():
         os.system("chmod +x wifite.py")
         os.system("./wifite.py")
         os.system("")
+
+
+def admin():
+    if yesOrNo():
+            print (pulpologo + color.RED + '''
+
+       }-----{+} Now you are on my Admin Panel {+}-----{
+
+
+      '''
 
 
 if __name__ == "__main__":
