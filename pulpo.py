@@ -156,6 +156,16 @@ def Lazy():
         os.system("./install.sh")
         os.system("")
 
+
+def admin():
+    if yesOrNo():
+        clearScr()
+        print (pulpologo + color.RED + '''
+
+        }-----{+} Welcome to my Admin Panel {+}-----{
+
+  '''
+
 def kismet():
     if yesOrNo():
         os.system("kismet")
@@ -168,16 +178,6 @@ def wifite():
         os.system("chmod +x wifite.py")
         os.system("./wifite.py")
         os.system("")
-
-
-def admin():
-    if yesOrNo():
-            print (pulpologo + color.RED + '''
-
-       }-----{+} Now you are on my Admin Panel {+}-----{
-
-
-      '''
 
 
 if __name__ == "__main__":
