@@ -35,7 +35,7 @@ Common Functions
 class color:
     RED = '\033[91m'
     END = '\033[0m'
- 
+
 
 def clearScr():
     os.system('clear')
@@ -131,6 +131,8 @@ class wirelessTestingMenu:
             Lazy()
         elif choice4 == "9":
             pulpo()
+        elif choice4 == "99":
+            admin()
         else:
             self.__init__()
         self.completed()
@@ -146,7 +148,7 @@ class wirelessTestingMenu:
 
 def Lazy():
     if yesOrNo():
-        os.system("cd") 
+        os.system("cd")
         os.system("git clone https://github.com/arismelachroinos/lscript.git")
         os.system("cd")
         os.system("cd lscript")
@@ -167,7 +169,17 @@ def wifite():
         os.system("./wifite.py")
         os.system("")
 
-
+            
+def admin():
+    if yesOrNo():
+        os.system("hello this is the admin panel")
+        os.system("please enter your password")
+        choice5 = raw_input("admin~# ")
+        if choice5 == "123456789":
+            clearScr()
+            os.system("now you are inside")
+        else:
+            self.__init__()        
 
 if __name__ == "__main__":
     try:
