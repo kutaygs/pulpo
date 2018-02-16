@@ -173,15 +173,15 @@ def admin():
     if yesOrNo():
             print (pulpologo + color.RED + '''
           }-----{+} Now you are trying to be in the Admin Panel {+}-----{
-            
+
 
       '''
-        choice5 = raw_input("admin~# ")
-        if choice5 == "123456789"
+    choice5 = raw_input("admin~# ")
+    if choice5 == "123456789"
             clearScr()
             os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
         else:
-            self.__init__()        
+            self.__init__()
 
 if __name__ == "__main__":
     try:
