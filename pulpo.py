@@ -140,17 +140,18 @@ class wirelessTestingMenu:
 
 
 def admin():
-            print (pulpologo + color.RED + '''
+    clearScr()
+    print (pulpologo + color.RED + '''
           }-----{+} Now you are trying to be in the Admin Panel {+}-----{
 
 
          '''
-          choice4 = raw_input("admin~# ")
-          if choice4 == "123456789"
-                clearScr()
-                os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
-          else:
-                self.__init__()
+    choice4 = raw_input("admin~# ")
+    if choice4 == "123456789"
+          clearScr()
+          os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
+    else:
+          self.__init__()
 
 
 
