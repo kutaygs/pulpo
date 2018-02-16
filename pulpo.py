@@ -131,8 +131,6 @@ class wirelessTestingMenu:
             Lazy()
         elif choice4 == "9":
             pulpo()
-        elif choice4 == "99":
-                admin()
         else:
             self.__init__()
         self.completed()
@@ -156,14 +154,6 @@ def Lazy():
         os.system("./install.sh")
         os.system("")
 
-
-def admin():
-    if yesOrNo():
-        clearScr()
-        os.system(pulpologo + color.RED + "}-----{+} Welcome to my Admin Panel {+}-----{"
-
-
-
 def kismet():
     if yesOrNo():
         os.system("kismet")
@@ -176,6 +166,7 @@ def wifite():
         os.system("chmod +x wifite.py")
         os.system("./wifite.py")
         os.system("")
+
 
 
 if __name__ == "__main__":
