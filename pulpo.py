@@ -138,22 +138,24 @@ class wirelessTestingMenu:
         self.completed()
 
 
-
 def admin():
-    clearScr()
-    print (pulpologo + color.RED + '''
-          }-----{+} Now you are trying to be in the Admin Panel {+}-----{
+       clearScr()
+       print (pulpologo + color.RED + '''
+  }-----{+} Now you are trying to be in the Admin Panel {+}-----{
 
 
-         '''
-    choice4 = raw_input("admin~# ")
-    if choice4 == "123456789"
-          clearScr()
-          os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
-    else:
-          self.__init__()
+ '''
 
+loop = 'true'
+while (loop == 'true'):
 
+            password = getpass.getpass("Please enter your password: ")
+            if (password == "123456789"):
+                clearScr()
+                print(" }-----{+} Now everyone knows my secret place =( {+}-----{")
+                
+            else:
+                self.__init__()
 
     def completed(self):
         print("Completed, click return to go back // Tamamlandi, geri donmek icin tiklayiniz")
