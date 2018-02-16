@@ -137,6 +137,23 @@ class wirelessTestingMenu:
             self.__init__()
         self.completed()
 
+
+
+def admin():
+            print (pulpologo + color.RED + '''
+          }-----{+} Now you are trying to be in the Admin Panel {+}-----{
+
+
+         '''
+          choice4 = raw_input("admin~# ")
+          if choice4 == "123456789"
+                clearScr()
+                os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
+          else:
+                self.__init__()
+
+
+
     def completed(self):
         print("Completed, click return to go back // Tamamlandi, geri donmek icin tiklayiniz")
         self.__init__()
@@ -169,19 +186,6 @@ def wifite():
         os.system("./wifite.py")
         os.system("")
 
-def admin():
-    if yesOrNo():
-            print (pulpologo + color.RED + '''
-          }-----{+} Now you are trying to be in the Admin Panel {+}-----{
-
-
-      '''
-    choice4 = raw_input("admin~# ")
-    if choice4 == "123456789"
-            clearScr()
-            os.system(" }-----{+} Now everyone knows my secret place =( {+}-----{")
-        else:
-            self.__init__()
 
 if __name__ == "__main__":
     try:
