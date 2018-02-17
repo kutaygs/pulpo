@@ -118,6 +118,7 @@ class wirelessTestingMenu:
         print("   {2}--fern")
         print("   {3}--kismet")
         print("   {4}--LazyScript")
+        print("   {5}--Wifi-Hacker")
         print("   {9}-Back To The Main Menu // Ana Menuye Git\n")
         choice4 = raw_input("pulpo~# ")
         clearScr()
@@ -129,6 +130,8 @@ class wirelessTestingMenu:
             kismet()
         elif choice4 == "4":
             Lazy()
+        elif choice4 == "5":
+            wifi_hacker()
         elif choice4 == "9":
             pulpo()
         else:
@@ -146,8 +149,6 @@ class wirelessTestingMenu:
 
 def Lazy():
     if yesOrNo():
-        sys.exit()
-        os.system("9")
         os.system("cd")
         os.system("git clone https://github.com/arismelachroinos/lscript.git")
         os.system("cd lscript")
@@ -155,6 +156,15 @@ def Lazy():
         os.system("./install.sh")
         os.system("")
         os.system("l")
+
+def wifi_hacker():
+    if yesOrNo():
+        os.system("cd")
+        os.system("git clone https://github.com/esc0rtd3w/wifi-hacker.git")
+        os.system("cd wifi-hacker/")
+        os.system("chmod a+x wifi-hacker.sh")
+        os.system("./wifi-hacker.sh")
+        os.system("")
 
 def kismet():
     if yesOrNo():
