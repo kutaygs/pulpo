@@ -157,9 +157,18 @@ def Lazy():
         os.system("")
         os.system("l")
 
+
+def admin():
+    if yesOrNo():
+        return (raw_input("Password: ") in yes)
+            print("Welcome to my admin panel!")
+            print("If you want to join this project please contact me")
+            print("kutayyavuz03@hotmail.com")
+
 def wifi_hacker():
     if yesOrNo():
         os.system("cd")
+        os.system("")
         os.system("git clone https://github.com/esc0rtd3w/wifi-hacker.git")
         os.system("cd wifi-hacker/")
         os.system("chmod a+x wifi-hacker.sh")
