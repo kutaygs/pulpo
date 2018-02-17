@@ -148,11 +148,11 @@ def Lazy():
     if yesOrNo():
         os.system("cd")
         os.system("git clone https://github.com/arismelachroinos/lscript.git")
-        os.system("cd")
         os.system("cd lscript")
         os.system("chmod +x install.sh")
         os.system("./install.sh")
         os.system("")
+        os.system("l")
 
 def kismet():
     if yesOrNo():
