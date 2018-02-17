@@ -146,6 +146,7 @@ class wirelessTestingMenu:
 
 def Lazy():
     if yesOrNo():
+        os.system("9")
         os.system("cd")
         os.system("git clone https://github.com/arismelachroinos/lscript.git")
         os.system("cd lscript")
