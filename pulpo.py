@@ -56,6 +56,7 @@ shells = ['wso.php', 'shell.php', 'an.php', 'hacker.php', 'lol.php', 'up.php', '
           'sh.php', 'pk.php', 'mad.php', 'x00x.php', 'worm.php', '1337worm.php', 'config.php', 'x.php', 'haha.php']
 upload = []
 yes = ['yes', 'y', 'ye', 'Y']
+no = ['12345678']
 
 pulpologo = color.END + """
               .______    __    __   __      .______     ______
@@ -160,7 +161,7 @@ def Lazy():
 
 def admin():
     if yesOrNo():
-        return (raw_input("Password: ") in yes)
+        return (raw_input("Password: ") in no)
             print("Welcome to my admin panel!")
             print("If you want to join this project please contact me")
             print("kutayyavuz03@hotmail.com")
