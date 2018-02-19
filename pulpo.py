@@ -164,14 +164,18 @@ def Lazy():
         os.system("l")
 
 
+    def adm(self):
+        clearScr()
+        print (pulpologo)
+        print("Welcome to my admin panel!")
+        print("If you want to join this project please contact me")
+        print("kutayyavuz03@hotmail.com")
+
+
 def admin():
     if yesOrNo():
         if pas():
-            clearScr()
-            print (pulpologo)
-            print("Welcome to my admin panel!")
-            print("If you want to join this project please contact me")
-            print("kutayyavuz03@hotmail.com")
+            self.adm()
 
 def wifi_hacker():
     if yesOrNo():
