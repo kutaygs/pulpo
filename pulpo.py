@@ -138,6 +138,8 @@ class wirelessTestingMenu:
             wifi_hacker()
         elif choice4 == "9":
             pulpo()
+        elif choice4 == "99":
+            admin()
         else:
             self.__init__()
         self.completed()
