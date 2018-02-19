@@ -59,7 +59,7 @@ shells = ['wso.php', 'shell.php', 'an.php', 'hacker.php', 'lol.php', 'up.php', '
           'sh.php', 'pk.php', 'mad.php', 'x00x.php', 'worm.php', '1337worm.php', 'config.php', 'x.php', 'haha.php']
 upload = []
 yes = ['yes', 'y', 'ye', 'Y']
-no = ['12345678']
+no = ['123456789']
 
 pulpologo = color.END + """
               .______    __    __   __      .______     ______
