@@ -45,6 +45,9 @@ def yesOrNo():
     return (raw_input("Continue Y / N: ") in yes)
 
 
+def pas():
+    return (raw_input("Password: ") in no)
+
 '''
 Variables
 '''
@@ -161,7 +164,7 @@ def Lazy():
 
 def admin():
     if yesOrNo():
-        return (raw_input("Password: ") in no)
+        if pas():
             print("Welcome to my admin panel!")
             print("If you want to join this project please contact me")
             print("kutayyavuz03@hotmail.com")
