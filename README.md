@@ -52,7 +52,6 @@ Linux
 
 
 Windows
-
 ![alt text](https://image.ibb.co/iT9kQc/pulpo.png)
 
 
