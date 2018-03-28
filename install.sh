@@ -65,7 +65,7 @@ echo "#!$BASH_PATH
 python $INSTALL_DIR/pulpo.py" '${1+"$@"}' > pulpo;
 chmod +x pulpo;
 if [ "$TERMUX" = true ]; then
-    cp fsociety "$BIN_DIR"
+    cp pulpo "$BIN_DIR"
 else
     sudo cp pulpo "$BIN_DIR"
 fi
