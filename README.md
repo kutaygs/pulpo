@@ -38,12 +38,17 @@ chmod +x install.sh
 
 Download [Python](https://www.python.org/downloads/release/python-2714/)
 
-Download this github repo with (.zip)
+1} Install this repo.
 
-Extract (.zip) file.
 
-Then double-click (pulpo.py)
 
+2} Extract the .zip file wherever you want.
+
+
+
+3} Double click to tulpaner.py
+
+kutayyavuz03@hotmail.com
 
 # Screenshots
 
