@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/kutaygs/pulpo/blob/master/LICENSE) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3)![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20OSX%20|%20Windows%20|%20Android-yellowgreen.svg?style=flat-square)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/kutaygs/pulpo/blob/master/LICENSE) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3) ![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20Windows%20-yellowgreen.svg?style=flat-square)
 
 # pulpo
 Combination of wireless test programs.
