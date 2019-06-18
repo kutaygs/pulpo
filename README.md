@@ -36,7 +36,7 @@ chmod +x install.sh
 ## Installation [Windows](https://wikipedia.org/wiki/Microsoft_Windows)[![alt tag](http://icons.iconarchive.com/icons/yootheme/social-bookmark/32/social-windows-button-icon.png)](https://fr.wikipedia.org/wiki/Microsoft_Windows)
 
 
-Download [Python](https://www.python.org/downloads/release/python-2714/)
+Download [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi)
 
 1} Install this repo.
 
